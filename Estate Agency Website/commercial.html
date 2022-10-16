@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title>Search Commercial Properties</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="information">
+        <!-- logo created on https://www.canva.com/ -->
+        <a href="index.html">
+            <img class="logo" src="Fresh Start.png">
+        </a>
+        <p class="heading"> Fresh Start Estate Agency</p>
+        <div class="details">
+            <p class="address_and_number">29 Shipquay Street, Derry, BT48 6DL | Tel:02871909754</p>
+            <div class="review">
+                <a class="trustpilot_uk" href="https://uk.trustpilot.com/">
+                <!--trustpilot image source: https://www.vhv.rs/dpng/d/153-1534091_send-icon-trustpilot-5-stars-hd-png-download.png    -->
+                <img class="trustpilot" src="trustpilot.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- top navigation bar source code: https://www.w3schools.com/css/css_navbar.asp -->
+    <div class="topnav">
+        <!-- nav buttons -->
+        <a href="index.html">Home</a>
+        <a class="active" href="commercial.html">Commercial Properties</a>
+        <a href="residential.html">Residential Properties</a>
+        <a href="#propertyvaluations">Property Valuations</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="home_mainblock">
+        <div class="block1">
+            <p class="commercialtitle"> Commercial Properties: </p>
+            <div class="search_tools">
+                <div class="toolbox">
+                    <input class="search_bar_commercial" type="text"
+                        placeholder="  Search Properties by Area, Postcode or Address..">
+                    <a href="commercial_searchresults.html"><img class="searchbutton" src="search_icon.png"></a>
+                    <div class="filters">
+                        <p class="filters_title">Search Filters:</p>
+                        <label class="sale" for="for_sale">For Sale</label>
+                        <input class="sale" type="checkbox" name="for_sale">
+
+                        <label class="rent" for="for_rent">For Rent</label>
+                        <input class="rent" type="checkbox" name="for_rent">
+                        
+                        <label class="min" for="minprice">Min Price £</label>
+                        <input class="min"type="number" name="minprice">
+                        
+                        <label class="max" for="maxprice">Max Price £</label>
+                        <input class="max" type="number" name="maxprice">
+                        </br>
+
+                        <label class="type"for="type">Type:</label>
+                        <select class="propertytype">
+                            <option>Any</option>
+                            <option>Retail</option>
+                            <option>Restaurants/Cafes</option>
+                            <option>Office Space</option>
+                            <option>Industrial</option>
+                            <option>Logistics</option>
+                        </select>
+                        <label class="minsize" for="minsize">Min Size (Sq ft)</label>
+                        <input class="minsize" name ="minsize">
+
+                        <label class="maxsize" for="maxsize">Max Size (Sq ft)</label>
+                        <input class="maxsize" name ="maxsize">
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+               <!-- shop.jpg image source https://cdn.shopify.com/s/files/1/1017/2511/files/MC_OUTSIDE.jpg?10232321535924782407  -->   
+                <img class="house_background" src="shop.jpg">
+            </div>
+            <div class="footer_left">
+                <p class="insta"><a href="https://www.instagram.com" class="insta_link">fresh_start_estate_agency</a></p>
+                <p class="facebook"><a href="https://www.facebook.com" class="facebook_link">Fresh Start Estate Agency</a></p>
+                <p class="twitter"><a href="https://www.twitter.com" class="twitter_link">@freshstart2004</a></p>
+                <p class="linkedin"><a href="https://www.linkedin.com" class="linkedin_link">freshstartestateagency</a></p>
+            </div>
+            <div class="footer_right">
+                <p class="phone_number">02871909754</p>
+                </br>
+                </br>
+                </br>
+                <p class="copyright">© 2021 PM Web Development Solutions</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
